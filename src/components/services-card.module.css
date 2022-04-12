@@ -1,0 +1,28 @@
+.container {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: rgba(182, 71, 47, 0.1);
+}
+.image {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.text1 {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.text2 {
+  cursor: pointer;
+  text-decoration: underline;
+}

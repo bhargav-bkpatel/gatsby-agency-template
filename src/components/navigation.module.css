@@ -1,0 +1,71 @@
+.Header {
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-white);
+}
+.max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.Nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.BurgerMenu {
+  display: none;
+}
+.Icon {
+  fill: var(--dl-color-scheme-darkblue);
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+.Nav1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+}
+.Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.CloseMobileMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon2 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 991px) {
+  .Nav {
+    display: none;
+  }
+  .BurgerMenu {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .max-width {
+    padding: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,27 @@
+.Slide {
+  align-items: center;
+  justify-content: center;
+}
+.max-wdith {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  color: var(--dl-color-scheme-white);
+}
+.rootClassName {
+  background-color: #ff9b1d;
+}
+.rootClassName1 {
+  background-color: #15bd19;
+}
+.rootClassName2 {
+  background-color: var(--dl-color-scheme-brown);
+}
+.rootClassName3 {
+  background-color: var(--dl-color-scheme-lightblue);
+}
+.rootClassName4 {
+  background-color: var(--dl-color-scheme-darkblue);
+}

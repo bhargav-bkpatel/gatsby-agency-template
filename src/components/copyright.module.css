@@ -1,0 +1,54 @@
+.Copyright {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.max-width {
+  align-items: stretch;
+}
+.text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.text01 {
+  font-style: normal;
+  font-weight: 300;
+}
+.text04 {
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.text05 {
+  font-style: normal;
+  font-weight: 300;
+}
+.text08 {
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.text09 {
+  font-style: normal;
+  font-weight: 300;
+}
+.text12 {
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.text13 {
+  font-style: normal;
+  font-weight: 300;
+}
+@media(max-width: 991px) {
+  .max-width {
+    flex-direction: column;
+  }
+}
